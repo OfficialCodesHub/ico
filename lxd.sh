@@ -4,7 +4,7 @@ set -euo pipefail
 #=========================================================
 #   LXC + LXD AUTO INSTALLER FOR UBUNTU & DEBIAN
 #   Dont Copy This Script
-#   Author: AXODEVELOPMENT
+#   Author: ROOT@ICONIC
 #=========================================================
 
 # --- Advanced Colors and Styles ---
@@ -304,7 +304,7 @@ ${RESET}
 EOF
 
     # Animated subtitle with rainbow effect
-    local subtitle="AUTO LXC + LXD INSTALLER MADE WITH ❤️ BY AYUSHTHEWARRIOR"
+    local subtitle="AUTO LXC + LXD INSTALLER MADE WITH ❤️ BY ROOT@ICONIC"
     local rainbow_colors=("$RED" "$YELLOW" "$GREEN" "$CYAN" "$BLUE" "$MAGENTA")
     
     printf "\n"
@@ -612,7 +612,7 @@ show_success_message() {
     echo -e "  ${YELLOW}💡${RESET} Use ${BOLD}lxc info${RESET} to check your LXD configuration"
     echo -e "  ${YELLOW}💡${RESET} Check log file: ${UNDERLINE}${INSTALL_LOG}${RESET}"
     
-    echo -e "\n${MAGENTA}${BOLD}Thank you for using HopingBoyz LXC/LXD Installer! 🚀${RESET}\n"
+    echo -e "\n${MAGENTA}${BOLD}Thank you for using ROOT@ICONIC LXC/LXD Installer! 🚀${RESET}\n"
 }
 
 # === Main Installation Flow ===
