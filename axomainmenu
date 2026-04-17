@@ -50,15 +50,15 @@ progress_bar() {
 intro() {
     clear
     echo -e "${P}"
-    typewriter "██╗ ██████╗ ██████╗ ███╗   ██╗██╗ ██████╗"
-    typewriter "██║██╔════╝██╔═══██╗████╗  ██║██║██╔════╝"
-    typewriter "██║██║     ██║   ██║██╔██╗ ██║██║██║     "
-    typewriter "██║██║     ██║   ██║██║╚██╗██║██║██║     "
-    typewriter "██║╚██████╗╚██████╔╝██║ ╚████║██║╚██████╗"
-    typewriter "╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝ ╚═════╝"
+    typewriter " █████╗ ██████╗ ██████╗ ██╗   ██╗██╗     ██╗      █████╗ ██╗  ██╗"
+    typewriter "██╔══██╗██╔══██╗██╔══██╗██║   ██║██║     ██║     ██╔══██╗██║  ██║"
+    typewriter "███████║██████╔╝██║  ██║██║   ██║██║     ██║     ███████║███████║"
+    typewriter "██╔══██║██╔══██╗██║  ██║██║   ██║██║     ██║     ██╔══██║██╔══██║"
+    typewriter "██║  ██║██████╔╝██████╔╝╚██████╔╝███████╗███████╗██║  ██║██║  ██║"
+    typewriter "╚═╝  ╚═╝╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝"
     echo -e "${N}"
     echo ""
-    typewriter "🚀 Root@Iconic MainMenu"
+    typewriter "🚀 Abdullah MainMenu"
     sleep 1
     progress_bar
     clear
@@ -66,7 +66,7 @@ intro() {
 
 # ---- HEADER ----
 header() {
-    echo -e "${P}${BLINK}🚀 Root@Iconic MainMenu 🚀${N}"
+    echo -e "${P}${BLINK}🚀 Abdullah MainMenu 🚀${N}"
     echo -e "${Y}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
     echo ""
 }
@@ -211,7 +211,7 @@ while true; do
             pause
             ;;
         10)
-            echo -e "${G}Iconic ROCKS 😎🔥${N}"
+            echo -e "${G}Abdullah ROCKS 😎🔥${N}"
             sleep 1
             exit 0
             ;;
